@@ -1,0 +1,9 @@
+created: 20221122023807213
+default: Wizard
+description: The tag name which your wizard tags must use.  If you want this hidden, just choose a name that looks like a [[System Tiddler|https://tiddlywiki.com/#SystemTiddlers]] title.
+modified: 20221204020425664
+tags: 
+title: $:/plugins/ScottSauyet/WizardNav/config/TagName
+type: text/vnd.tiddlywiki
+
+Wizard

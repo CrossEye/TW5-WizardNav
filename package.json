@@ -1,0 +1,26 @@
+{
+  "name": "tw5-wizardnav",
+  "version": "0.2.0",
+  "description": "Adds simple prev/next navigation capability to tiddlywikis ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tiddlywiki . --output docs --build index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrossEye/TW5-WizardNav.git"
+  },
+  "keywords": [
+    "TiddlyWiki",
+    "plugin"
+  ],
+  "author": "Scott Sauyet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrossEye/TW5-WizardNav/issues"
+  },
+  "homepage": "https://github.com/CrossEye/TW5-WizardNav#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.2.3"
+  }
+}

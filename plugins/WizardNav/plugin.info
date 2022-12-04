@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/ScottSauyet/WizardNav",
+    "description": "Adds prev/next footer navigation to specially-tagged tiddlers",
+    "author": "Scott Sauyet",
+    "version": "0.2.0",
+    "core-version": ">=5.1.0",
+    "source": "https://github.com/CrossEye/TW5-WizardDemo",
+    "list": "readme license config",
+    "plugin-type": "plugin"
+}

@@ -1,0 +1,15 @@
+created: 20221121194716434
+modified: 20221204221047993
+tags: 
+title: Wizard Nav
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/ScottSauyet/WizardNav/readme}}
+
+!! Examples
+
+If you look at [[Tutorial]] and [[Pathway]], they are simple tags that serve as pathways through subsets of the (nonsense) tiddlers on this page.  They automatically list the tiddlers tagging them, after whatever content is in their own bodies.
+
+The nonsense text making up the remaining tiddlers is all tagged with one or both of these tags.  If you open one, say [[Feugiat scelerisque]], it will add a navigation footer to the tiddler, telling you that the previous [[Tutorial]] step is [[Lorem ipsum]] and the next one is [[Nunc sed blandit]], offering links to each of them and a link back to [[Tutorial]].  
+
+[[Porttitor leo]] is an example of a tiddler that appears on multiple tracks. and has two separate navigation bars, one for [[Tutorial]] and one for [[Pathway]]. 

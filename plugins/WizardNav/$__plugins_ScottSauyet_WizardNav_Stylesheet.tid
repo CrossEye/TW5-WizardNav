@@ -1,0 +1,17 @@
+created: 20221121184648238
+modified: 20221130014855607
+tags: $:/tags/Stylesheet
+title: $:/plugins/ScottSauyet/WizardNav/Stylesheet
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+.wizard-nav {
+  width: 100%; 
+  margin-top: 2em; 
+  border: none;
+  border-top: 1px solid <<colour muted-foreground>>; 
+}
+.wizard-nav td {text-align: center; border:none; width: 33%; padding: .5em 1em 0; vertical-align: top;}
+.wizard-nav td:first-child {text-align: left;}
+.wizard-nav td:last-child {text-align: right;}
