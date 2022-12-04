@@ -13,7 +13,7 @@ For Node.js installations, copy the folder `plugins/WizardNav` into your project
 `plugins` folder and restart the server.
 
 For other installatiion, open https://crosseye.github.io/TW5-WizardNav/, drag 
-the plugin link to your wiki, and choose "Install"
+the plugin link to your wiki, and choose "Install".
 
 To-do
 -----
