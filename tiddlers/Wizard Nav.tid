@@ -1,8 +1,10 @@
 created: 20221121194716434
-modified: 20221204221047993
+modified: 20221206023350574
 tags: 
 title: Wizard Nav
 type: text/vnd.tiddlywiki
+
+[img[$:/WizardNav/images/TiddlerWithNav.png]]
 
 {{$:/plugins/ScottSauyet/WizardNav/readme}}
 

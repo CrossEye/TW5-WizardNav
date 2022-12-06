@@ -1,12 +1,10 @@
 created: 20221204003433603
-modified: 20221204221227041
+modified: 20221206030736598
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/readme
 type: text/vnd.tiddlywiki
 
 Wizard Nav is a simple plug-in to add tutorial/wizard style previous and next tiddler navigation to those tiddlers sharing a common tag.
-
-[img[$:/plugins/ScottSauyet/WizardNav/images/TiddlerWithNav.png]]
 
 By creating a [[Tag Tiddler|https://tiddlywiki.com/#TagTiddlers]] that itself is tagged `Wizard` (or a different [[configurable|$:/plugins/ScottSauyet/WizardNav/config]] name), any tiddlers with that tag will have a footer offering links to the previous and next tiddlers among all those with the tag.  (There will also be a tag pill for that tag to offer random navigation among these tiddlers.)
 
@@ -25,3 +23,5 @@ Install by dragging the following link to your wiki and then choosing "install":
 Then create a tiddler to represent your path.  Add a tag to it with value "{{$:/plugins/ScottSauyet/WizardNav/config/TagName}}".  (You can change this value in [[TagName|$:/plugins/ScottSauyet/WizardNav/config/TagName]].).  Tag some of your tiddlers with the title of this new tiddler.  If you want this hidden, just choose a name that looks like a [[System Tiddler|https://tiddlywiki.com/#SystemTiddlers]] title.
 
 To reorder the links in your wizard, click on the tag pill from one of tiddlers, and drag these tiddlers around until you have a useful order.  You could alternatively manually add a `list` field to the path tiddler. 
+
+You can also turn off the footer included in the list of links at the bottom of the Tiddler Tag.  Just set [[AddLinksToTags|$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]] to `no`.

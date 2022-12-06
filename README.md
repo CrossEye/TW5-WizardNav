@@ -20,6 +20,11 @@ To-do
 
   - [ ] Replace the default tag pill with something that highlights the current step
 
-  - [ ] (Probably) Remove the feature that adds the list of tiddlers to the tiddler for
-    for the tag tiddler with the Wizard tag.  This was useful to me in the project where
-    I developed the plugin, but it's not a great fit.
+
+Version History
+---------------
+
+You can see the [version history][vh] in the demo.
+
+
+  [vh]: https://crosseye.github.io/TW5-WizardNav/#%24%3A%2Fplugins%2FScottSauyet%2FWizardNav%2Fversion

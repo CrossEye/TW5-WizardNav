@@ -1,9 +1,9 @@
 created: 20221203234850176
 default: no
 description: `yes/no` value determining whether the navigation tags will get a list of links to matching tiddlers.
-modified: 20221204015936766
+modified: 20221206024355008
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags
 type: text/vnd.tiddlywiki
 
-no
+yes
