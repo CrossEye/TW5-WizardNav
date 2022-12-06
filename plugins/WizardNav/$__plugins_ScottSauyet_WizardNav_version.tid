@@ -1,14 +1,14 @@
 created: 20221206023816502
-modified: 20221206025008931
+modified: 20221206033401552
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/version
 type: text/vnd.tiddlywiki
 
-; ''0.3.0''
+; ''[[0.3.0|https://crosseye.github.io/TW5-WizardNav/0.3.0/]]''
 : 
 * Moved screenshot image out of plugin and into demo
 * Changed the default on [[AddLinksToTag|$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]] to `yes`
 
 
-; ''0.2.0''
+; ''[[0.2.0|https://crosseye.github.io/TW5-WizardNav/0.2.0/]]''
 : Initial release
