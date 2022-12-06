@@ -4,7 +4,7 @@
   "description": "Adds simple prev/next navigation capability to tiddlywikis ",
   "main": "index.js",
   "scripts": {
-    "build": "tiddlywiki . --output docs --build index && cross-var copyfiles docs/index.html docs/$npm_package_version/index.html"
+    "build": "tiddlywiki . --output docs --build index && cross-var copyfiles docs/index.html docs/$npm_package_version"
   },
   "repository": {
     "type": "git",
