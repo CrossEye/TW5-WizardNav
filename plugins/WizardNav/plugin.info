@@ -1,5 +1,6 @@
 {
     "title": "$:/plugins/ScottSauyet/WizardNav",
+    "name": "Wizard Name",
     "description": "Adds prev/next footer navigation to specially-tagged tiddlers",
     "author": "Scott Sauyet",
     "version": "0.4.0",

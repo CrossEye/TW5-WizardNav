@@ -7,6 +7,7 @@ type: text/vnd.tiddlywiki
 ; ''[[0.4.0|https://crosseye.github.io/TW5-WizardNav/0.4.0/]]''
 :
 * Switched to an `<OL>` for the tag footer list
+* Added `name` field
 
 ; ''[[0.3.0|https://crosseye.github.io/TW5-WizardNav/0.3.0/]]''
 : 
