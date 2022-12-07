@@ -1,5 +1,5 @@
 created: 20221121163308395
-modified: 20221204045712936
+modified: 20221207024533642
 tags: $:/tags/ViewTemplate
 title: $:/plugins/ScottSauyet/WizardNav/ViewTemplate
 type: text/vnd.tiddlywiki
@@ -27,7 +27,7 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[[$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]get[text]match[yes]]" variable="_"> 
 <$list filter="[is[current]tag{$:/plugins/ScottSauyet/WizardNav/config/TagName}]">
-  <<list-links filter:"[all[current]tagging[]]">>
+  <<list-links filter:"[all[current]tagging[]]" type:"ol">>
 </$list>
 </$list>
 
