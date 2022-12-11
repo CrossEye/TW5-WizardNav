@@ -1,9 +1,10 @@
 created: 20221204020451175
-modified: 20221204034826521
+modified: 20221211155545135
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/config
 type: text/vnd.tiddlywiki
 
 |!Name |!Default value |!Description |
-|[[AddLinksToTags|$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]] |no |`yes/no` value determining whether the navigation tags will get a list of links to matching tiddlers.|
+|[[AddLinksToTags|$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]] |yes |`yes/no` value determining whether the navigation tags will get a list of links to matching tiddlers.|
 |[[TagName|$:/plugins/ScottSauyet/WizardNav/config/TagName]] |Wizard |The tag name which your wizard tags must use. If you want this hidden, just choose a name that looks like a [[System Tiddler|https://tiddlywiki.com/#SystemTiddlers]] title. |
+|[[SortField|$:/plugins/ScottSauyet/WizardNav/config/SortField]] |title |The name of the tiddler field to sort on |

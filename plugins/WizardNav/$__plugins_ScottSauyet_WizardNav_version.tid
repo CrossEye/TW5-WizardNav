@@ -1,8 +1,13 @@
 created: 20221206023816502
-modified: 20221206033401552
+modified: 20221211155229719
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/version
 type: text/vnd.tiddlywiki
+
+; ''[[0.5.0|https://crosseye.github.io/TW5-WizardNav/0.5.0/]]''
+:
+* Removed empty table markup when the tiddler does not have any `Wizard`-tagged tags
+* Offered the option to override the sort field.  Now it uses the `list` field if the Tag has one, the field describe in `$:/plugins/ScottSauyet/WizardNav/config/SortField`, if it exists, or `title` by default.
 
 ; ''[[0.4.0|https://crosseye.github.io/TW5-WizardNav/0.4.0/]]''
 :

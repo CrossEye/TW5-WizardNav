@@ -1,34 +1,32 @@
 created: 20221121163308395
-modified: 20221207024533642
+modified: 20221211155110723
 tags: $:/tags/ViewTemplate
 title: $:/plugins/ScottSauyet/WizardNav/ViewTemplate
 type: text/vnd.tiddlywiki
 
 <$set name="currentNavStep" value={{!!title}}>
-
+<$list filter="[is[current]tags[]tag{$:/plugins/ScottSauyet/WizardNav/config/TagName}first[]]" variable="_"> 
 <table class="wizard-nav">
-<$list filter="[is[current]tags[]tag{$:/plugins/ScottSauyet/WizardNav/config/TagName}sort[]]">
+<$list filter="[is[current]tags[]tag{$:/plugins/ScottSauyet/WizardNav/config/TagName}sort{$:/plugins/ScottSauyet/WizardNav/config/SortField}]">
   <tr>
     <td>
-      <$list filter="[enlist{!!list}] :else[tag{!!title}] +[before<currentNavStep>]">
+      <$list filter="[enlist{!!list}] :else[tag{!!title}sort{$:/plugins/ScottSauyet/WizardNav/config/SortField}] +[before<currentNavStep>]">
         <$link to=<<currentTiddler>>>« {{!!title}}</$link>
       </$list>
     </td>
     <td>{{||$:/core/ui/TagTemplate}}</td>
     <td>
-      <$list filter="[enlist{!!list}] :else[tag{!!title}] +[after<currentNavStep>]">
+      <$list filter="[enlist{!!list}] :else[tag{!!title}sort{$:/plugins/ScottSauyet/WizardNav/config/SortField}] +[after<currentNavStep>]">
         <$link to=<<currentTiddler>>>{{!!title}}  »</$link>
       </$list>
     </td>
   </tr>
 </$list>
 </table>
-
-
+</$list>
 <$list filter="[[$:/plugins/ScottSauyet/WizardNav/config/AddLinksToTags]get[text]match[yes]]" variable="_"> 
 <$list filter="[is[current]tag{$:/plugins/ScottSauyet/WizardNav/config/TagName}]">
-  <<list-links filter:"[all[current]tagging[]]" type:"ol">>
+  <<list-links filter:"[all[current]tagging[]sort{$:/plugins/ScottSauyet/WizardNav/config/SortField}]" type:"ol">>
 </$list>
 </$list>
-
 </$set>

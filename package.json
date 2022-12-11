@@ -1,6 +1,6 @@
 {
   "name": "tw5-wizardnav",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Adds simple prev/next navigation capability to tiddlywikis ",
   "main": "index.js",
   "scripts": {

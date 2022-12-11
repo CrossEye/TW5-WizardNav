@@ -3,9 +3,9 @@
     "name": "Wizard Name",
     "description": "Adds prev/next footer navigation to specially-tagged tiddlers",
     "author": "Scott Sauyet",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "core-version": ">=5.2.3",
     "source": "https://github.com/CrossEye/TW5-WizardDemo",
-    "list": "readme license version config",
+    "list": "readme license config version credits",
     "plugin-type": "plugin"
 }
