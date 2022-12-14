@@ -1,5 +1,5 @@
 created: 20221204003433603
-modified: 20221206030736598
+modified: 20221211202317022
 tags: 
 title: $:/plugins/ScottSauyet/WizardNav/readme
 type: text/vnd.tiddlywiki
@@ -18,7 +18,11 @@ You can find this in a [[GitHub repository|https://github.com/CrossEye/TW5-Wizar
 
 Install by dragging the following link to your wiki and then choosing "install":
 
+@@padding-left:2em;
+
 [[$:/plugins/ScottSauyet/WizardNav]]
+
+@@
 
 Then create a tiddler to represent your path.  Add a tag to it with value "{{$:/plugins/ScottSauyet/WizardNav/config/TagName}}".  (You can change this value in [[TagName|$:/plugins/ScottSauyet/WizardNav/config/TagName]].).  Tag some of your tiddlers with the title of this new tiddler.  If you want this hidden, just choose a name that looks like a [[System Tiddler|https://tiddlywiki.com/#SystemTiddlers]] title.
 

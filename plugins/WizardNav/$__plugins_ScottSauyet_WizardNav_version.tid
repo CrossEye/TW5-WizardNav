@@ -4,6 +4,10 @@ tags:
 title: $:/plugins/ScottSauyet/WizardNav/version
 type: text/vnd.tiddlywiki
 
+; ''[[0.5.1|https://crosseye.github.io/TW5-WizardNav/0.5.1/]]''
+:
+* Fixed a regression where Tag Tiddler footers weren't being sorted by their `list` fields.
+
 ; ''[[0.5.0|https://crosseye.github.io/TW5-WizardNav/0.5.0/]]''
 :
 * Removed empty table markup when the tiddler does not have any `Wizard`-tagged tags
