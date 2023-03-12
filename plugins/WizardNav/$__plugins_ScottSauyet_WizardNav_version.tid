@@ -4,6 +4,11 @@ tags:
 title: $:/plugins/ScottSauyet/WizardNav/version
 type: text/vnd.tiddlywiki
 
+; ''[[0.5.2|https://crosseye.github.io/TW5-WizardNav/0.5.2/]]''
+:
+* Corrected the name and GitHub links.
+
+
 ; ''[[0.5.1|https://crosseye.github.io/TW5-WizardNav/0.5.1/]]''
 :
 * Fixed a regression where Tag Tiddler footers weren't being sorted by their `list` fields.

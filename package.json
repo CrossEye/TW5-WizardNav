@@ -1,6 +1,6 @@
 {
   "name": "tw5-wizardnav",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Adds simple prev/next navigation capability to tiddlywikis ",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/CrossEye/TW5-WizardNav#readme",
   "dependencies": {
-    "tiddlywiki": "^5.2.3"
+    "tiddlywiki": "^5.2.5"
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
